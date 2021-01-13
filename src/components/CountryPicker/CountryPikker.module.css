@@ -1,0 +1,12 @@
+.formControl {
+    width: 60%;
+    margin-bottom: 20px !important;
+    background-image: linear-gradient(to right ,rgb(145, 85, 85), rgb(66, 139, 66), rgb(65, 65, 126));
+    font-weight: 600;
+    border-radius: 5px;
+  }
+  @media only screen and (max-width: 770px) {
+    .formControl {
+      width: 90%;
+    }
+  }

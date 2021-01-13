@@ -1,0 +1,67 @@
+.container {
+   
+    margin: 50px 0;
+  }
+  .card{
+    border-radius: 25px;
+      width:400px;
+      margin: 2% 1% !important;
+  }
+  .infected {
+      border-radius: 20px;
+    border: 10px solid darkblue
+  }
+
+  .recovered{
+    border-radius: 20px;
+    border: 10px solid forestgreen;
+  }
+  
+  .deaths{
+    border-radius: 20px;
+    border: 10px solid darkred;
+  }
+  .infected:hover{
+    transform: scale(1.1); 
+    border:10px darkblue solid;
+    transition: 1.5s;
+  }
+  .recovered:hover{
+    transform: scale(1.1); 
+    border:10px forestgreen solid;
+    transition: 1.5s;
+  }
+  .deaths:hover{
+    transform: scale(1.1); 
+    border:10px darkred solid;
+    transition: 1.5s;
+  }
+
+  .H4Inf{
+font-weight: 1000;
+color:darkblue;
+
+  }
+
+  .H4REC{
+    font-weight: 1000;  
+    color: forestgreen;
+
+}  
+.H4Deaths{
+    font-weight: 1000;
+    color:darkred;
+}
+
+.topic{
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+
+}
+@media only screen and (max-width: 770px) {
+    .container {
+      width: 80%;
+    }
+    
+    
+  }
